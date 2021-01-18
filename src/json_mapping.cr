@@ -10,7 +10,7 @@ module JSON
   # ### Example
   #
   # ```
-  # require "json"
+  # require "json_mapping"
   #
   # class Location
   #   JSON.mapping(
