@@ -2,6 +2,10 @@
 
 Provides the legacy `JSON.mapping` macro method.
 
+This shard is provided as-is and considered deprecated. It won't receive feature enhancements.
+
+Please consider using [`JSON::Serializable`](https://crystal-lang.org/api/latest/JSON/Serializable.html) instead, the successor included in Crystal's standard library.
+
 ## Installation
 
 1. Add the dependency to your `shard.yml`:
