@@ -2,7 +2,7 @@ require "json"
 
 module JSON
   module Mapping
-    VERSION = "0.1.0"
+    VERSION = "0.1.1"
   end
 
   # The `JSON.mapping` macro defines how an object is mapped to JSON.
