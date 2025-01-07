@@ -1,3 +1,16 @@
+> [!IMPORTANT]
+> This library is no longer supported or updated by the Crystal Team,
+> therefore we have archived the repository.
+> 
+> The contents are still available readonly and continue to work as a
+> [shards](https://github.com/crystal-lang/shards/) dependency.
+>
+> If you wish to continue development yourself, we recommend you fork it.
+> We can also arrange to transfer ownership.
+>
+> If you have further questions, please reach out on on https://forum.crystal-lang.org
+> or crystal@manas.tech
+
 # json_mapping
 
 Provides the legacy `JSON.mapping` macro method.
@@ -46,11 +59,3 @@ houses = Array(House).from_json(%([{"address": "Crystal Road 1234", "location": 
 houses.size    # => 1
 houses.to_json # => %([{"address":"Crystal Road 1234","location":{"lat":12.3,"lng":34.5}}])
 ```
-
-## Contributing
-
-1. Fork it (<https://github.com/crystal-lang/json_mapping.cr/fork>)
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
